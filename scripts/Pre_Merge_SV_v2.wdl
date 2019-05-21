@@ -1,4 +1,4 @@
-import "https://raw.githubusercontent.com/Ldcabansay/sv-pipeline/terra_sv/scripts/Pre_Merge_SV_per_sample.wdl" as per_sample
+import "https://raw.githubusercontent.com/abelhj/sv-pipeline/terra_sv/scripts/Pre_Merge_SV_per_sample.wdl" as per_sample
 
 workflow Pre_Merge_SV_v2 {
   Array[File] aligned_crams

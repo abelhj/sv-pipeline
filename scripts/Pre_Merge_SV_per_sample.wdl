@@ -1,4 +1,4 @@
-import "SV_Tasks.wdl" as SV
+import "https://raw.githubusercontent.com/abelhj/sv-pipeline/terra_sv/scripts/SV_Tasks.wdl" as SV
 
 workflow Pre_Merge_SV_Per_Sample {
   # data inputs
